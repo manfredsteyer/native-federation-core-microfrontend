@@ -1,3 +1,5 @@
+// shell\federation.config.js
+
 const {
   withNativeFederation,
   shareAll,
@@ -14,9 +16,5 @@ module.exports = withNativeFederation({
       includeSecondaries: false,
     }),
   },
-
-  // skip: [
-  //   '@softarc/native-federation'
-  // ]
 
 });
