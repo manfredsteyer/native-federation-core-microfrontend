@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 import * as path from 'path';
 import * as fs from 'fs';
-import { esBuildAdapter } from './esbuild-adapter';
+import { esBuildAdapter } from '@softarc/native-federation-esbuild';
 import { federationBuilder } from '@softarc/native-federation/build';
 
 export async function buildProject(projectName) {
